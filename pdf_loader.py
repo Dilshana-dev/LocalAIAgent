@@ -10,7 +10,6 @@ def load_pdfs():
     """
     Load all PDF files from the documents directory.
     """
-
     documents_path = Path(DOCUMENTS_DIR)
 
     if not documents_path.exists():
@@ -18,7 +17,6 @@ def load_pdfs():
         return []
 
     loader = PyPDFDirectoryLoader(DOCUMENTS_DIR)
-
     documents = loader.load()
 
     print(f"Loaded {len(documents)} PDF pages.")
