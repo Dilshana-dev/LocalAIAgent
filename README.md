@@ -1,5 +1,7 @@
 # 🤖 Local AI Agent
 
+Run:   python -m streamlit run app.py
+
 A local AI document assistant built with **Python, LangChain, Ollama, Qwen3, Chroma, and Streamlit**.
 
 The goal of this project is to create a completely local RAG (Retrieval-Augmented Generation) application that can read PDF documents and answer questions about their contents without requiring a paid cloud AI API.
